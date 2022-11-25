@@ -1,19 +1,23 @@
-{"Bug trackers": {" Bug Tracker 1": "JIRA",
-	"Bug tacker2": "Mantis"},
-	"Test trackers": "TestLink",
-	"SQL": {"sql1": "DML",
-		"sql2": "DDL",
-	"HTTP": "HTTPS",
-	"API": "REST",
-	"Devtools": "Chrome",
-	"GIT": {"git1": "GITHUB", 
-		"git2": "GITBASH"},
-	"Test documentations": {"doc1": "Test Plan",
-		"doc2": "Test case",
-		"doc3": "Test Suite",
-		"doc4": "Check list"},
-	"Tools": {"tool1": "SNAGIT",
-		"tool2": "Lightshot",
-		"tool3": "Bandicam"},
-	"Soft": "Visual Studio code",
-	"Soft_API": "Postman"}
+{
+ "1.": "Bug Tracker JIRA, Mantis",
+ "2.": "Test trackers TestLink",
+ "3.": "Test documentations Test Plan, Test case, Test Suite, Check list, Bug report"
+ "4.": "Testing Methods, Types of Testing, Software Test Design Techniques, SDLS(System Development Life Cycle), STLC"
+ "5.": "Agile methodology SCRUM, KANBAN"
+ "6.": "Client-Server Architecture Basics"	
+ "7.": "SQL DML, DDL",
+ "8.": "HTTP methods",
+ "9.": "Response STATUS codes"	
+ "10.": "API REST, SOAP",
+ "11.":	"POSTMAN",
+ "12.": "Devtools Chrome",
+ "13.": "GITHUB, GITBASH", 
+ "14.": "POSTMAN",
+ "15.": "JSON, XML basic, structure"
+ "16.": "Google Sheets"
+ "17.": "Visual Studio code basics"
+ "18.": "Mobile testing"
+ "19.": "SNAGIT, Lightshot, Bandicam"	
+ "20.": "html, css, JavaScript basics"
+ "21.": "Taking, uploading and reading Logs"	
+}
