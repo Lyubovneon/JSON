@@ -30,9 +30,13 @@
 - **insert**
  {
     "person":"Lyubov Nekroyenko",
+
 	"age": "30",
+	
 	"pets": "2",
+	
 	"salary":"3000"
+	
     }
 - **Esc:wq**
 - *cat new.json*  - to see the new.json content in gitbash
@@ -50,9 +54,13 @@
 - **insert**
 {
  "Movie": "The Bodyguard",
+
  "Serial": "The Software Testing Manual Journey",
+ 
  "Food": "Apples",
+ 
  "Season": "Spring",
+ 
  "Country": "USA"
 }
 - **Esc:wq**
@@ -64,26 +72,47 @@
 - **insert**
 {
  "1.": "Bug Tracker JIRA, Mantis",
+
  "2.": "Test tracker TestLink",
+ 
  "3.": "Test documentations Test Plan, Test case, Test Suite, Check list, Bug report"
+ 
  "4.": "Testing Methods, Types of Testing, Software Test Design Techniques, SDLS(System Development Life Cycle), STLC"
+ 
  "5.": "Agile methodology SCRUM, KANBAN"
+ 
  "6.": "Client-Server Architecture Basics"	
+ 
  "7.": "SQL DML, DDL",
+ 
  "8.": "HTTP methods",
- "9.": "Response STATUS codes"	
+ 
+ "9.": "Response STATUS codes"
+ 
  "10.": "API REST, SOAP",
+ 
  "11.":	"POSTMAN",
+ 
  "12.": "Devtools Chrome",
+ 
  "13.": "GITHUB, GITBASH", 
+ 
  "14.": "POSTMAN",
+ 
  "15.": "JSON, XML basic, structure"
+ 
  "16.": "Google Sheets"
+ 
  "17.": "Visual Studio code basics"
+ 
  "18.": "Mobile testing"
- "19.": "SNAGIT, Lightshot, Bandicam"	
+ 
+ "19.": "SNAGIT, Lightshot, Bandicam"
+ 
  "20.": "html, css, JavaScript basics"
- "21.": "Taking, uploading and reading Logs"	
+ 
+ "21.": "Taking, uploading and reading Logs"
+ 
 }
 **Esc:wq**
 - *cat skills.json*  - to see the skills.json content in gitbash
@@ -103,25 +132,45 @@
 - **click on the dropbox--> edit this file -->**
 {
  "ID": 110920221,
+
  "Date submited": "18.11.2022"
+ 
  "Date updated": "______"
+ 
  "Title": "Fields are shown without required identification",
+ 
  "Assigned to": "@ivanov222"
+ 
  "Resolution": "opened"
+ 
  "Status": "assigned" 
+ 
  "Invironment": "Microsoft EdgeVersion 105.0.1343.27 (64-bit) OS Windows OS Version 10x64",
+ 
  "Reporter": "@lyubovneon"
+ 
  "STR": {
+ 
     "STR1": "Open the http://itcareer.pythonanywhere.com",
+    
     "STR2": "Pay attention to the browser tab."
+    
          },
+         
   "AR": "Fields are shown without required identification.",
+  
   "ER": "Required fields are shown marked *(asterisk).",
+  
   "Severity": "major",
+  
   "Priority": "high",
+  
   "Attachments": {
+  
     "Attachment1": "link_video",
+    
     "Attachment2": "link_screenshort"
+    
                   }
 }
 ***
