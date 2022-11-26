@@ -28,7 +28,9 @@
 ### *10.Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON*
 - **vim new.json**
 - **insert**
+
  {
+ 
     "person":"Lyubov Nekroyenko",
 
 	"age": "30",
@@ -38,6 +40,7 @@
 	"salary":"3000"
 	
     }
+    
 - **Esc:wq**
 - *cat new.json*  - to see the new.json content in gitbash
 ***
@@ -52,17 +55,21 @@
 ### *13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON*
 - **vim preferences.json**
 - **insert**
-{
- "Movie": "The Bodyguard",
 
- "Serial": "The Software Testing Manual Journey",
+{
+
+   "Movie": "The Bodyguard",
+
+   "Serial": "The Software Testing Manual Journey",
  
- "Food": "Apples",
+   "Food": "Apples",
  
- "Season": "Spring",
+   "Season": "Spring",
  
- "Country": "USA"
+   "Country": "USA"
+ 
 }
+
 - **Esc:wq**
 - *cat preferences.json*  - to see the preferences.json content in gitbash
 ***
@@ -70,50 +77,53 @@
 - touch skills.json
 - **vim preferences.json**
 - **insert**
-{
- "1.": "Bug Tracker JIRA, Mantis",
 
- "2.": "Test tracker TestLink",
+{
+
+  "1.": "Bug Tracker JIRA, Mantis",
+
+  "2.": "Test tracker TestLink",
  
- "3.": "Test documentations Test Plan, Test case, Test Suite, Check list, Bug report"
+  "3.": "Test documentations Test Plan, Test case, Test Suite, Check list, Bug report"
  
- "4.": "Testing Methods, Types of Testing, Software Test Design Techniques, SDLS(System Development Life Cycle), STLC"
+  "4.": "Testing Methods, Types of Testing, Software Test Design Techniques, SDLS(System Development Life Cycle), STLC"
  
- "5.": "Agile methodology SCRUM, KANBAN"
+  "5.": "Agile methodology SCRUM, KANBAN"
  
- "6.": "Client-Server Architecture Basics"	
+  "6.": "Client-Server Architecture Basics"	
  
- "7.": "SQL DML, DDL",
+  "7.": "SQL DML, DDL",
  
- "8.": "HTTP methods",
+  "8.": "HTTP methods",
  
- "9.": "Response STATUS codes"
+  "9.": "Response STATUS codes"
  
- "10.": "API REST, SOAP",
+  "10.": "API REST, SOAP",
  
- "11.":	"POSTMAN",
+  "11.": "POSTMAN",
  
- "12.": "Devtools Chrome",
+  "12.": "Devtools Chrome",
  
- "13.": "GITHUB, GITBASH", 
+  "13.": "GITHUB, GITBASH", 
  
- "14.": "POSTMAN",
+  "14.": "POSTMAN",
  
- "15.": "JSON, XML basic, structure"
+  "15.": "JSON, XML basic, structure"
  
- "16.": "Google Sheets"
+  "16.": "Google Sheets"
  
- "17.": "Visual Studio code basics"
+  "17.": "Visual Studio code basics"
  
- "18.": "Mobile testing"
+  "18.": "Mobile testing"
  
- "19.": "SNAGIT, Lightshot, Bandicam"
+  "19.": "SNAGIT, Lightshot, Bandicam"
  
- "20.": "html, css, JavaScript basics"
+  "20.": "html, css, JavaScript basics"
  
- "21.": "Taking, uploading and reading Logs"
+  "21.": "Taking, uploading and reading Logs"
  
 }
+
 **Esc:wq**
 - *cat skills.json*  - to see the skills.json content in gitbash
 ***
@@ -123,33 +133,35 @@
 - **git push**
 ***
 ### *16. На веб интерфейсе создать файл bug_report.json*
-- **github.com --> drop down menu --> Your Repositories --> click on the JSON Repository --> click on add file dropbox --> Create new file --> write bug_report.json in the name field **
+- **github.com --> drop down menu --> Your Repositories --> click on the JSON Repository --> click on add file dropbox --> Create new file --> write bug_report.json in the name field**
 ***
 ### *17. Сделать Commit changes (сохранить) изменения на веб интерфейсе*
 - **--> write the title in the Commite new file field --> click on the Commit new file button**
 ***
 ### *18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON*
 - **click on the dropbox--> edit this file -->**
-{
- "ID": 110920221,
 
- "Date submited": "18.11.2022"
+{
+
+  "ID": 110920221,
+
+  "Date submited": "18.11.2022",
  
- "Date updated": "______"
+  "Date updated": "______",
  
- "Title": "Fields are shown without required identification",
+  "Title": "Fields are shown without required identification",
  
- "Assigned to": "@ivanov222"
+  "Assigned to": "@ivanov222",
  
- "Resolution": "opened"
+  "Resolution": "opened",
  
- "Status": "assigned" 
+  "Status": "assigned", 
  
- "Invironment": "Microsoft EdgeVersion 105.0.1343.27 (64-bit) OS Windows OS Version 10x64",
+  "Invironment": "Microsoft EdgeVersion 105.0.1343.27 (64-bit) OS Windows OS Version 10x64",
  
- "Reporter": "@lyubovneon"
+  "Reporter": "@lyubovneon",
  
- "STR": {
+  "STR": {
  
     "STR1": "Open the http://itcareer.pythonanywhere.com",
     
@@ -157,22 +169,23 @@
     
          },
          
-  "AR": "Fields are shown without required identification.",
+   "AR": "Fields are shown without required identification.",
   
-  "ER": "Required fields are shown marked *(asterisk).",
+   "ER": "Required fields are shown marked *(asterisk).",
   
-  "Severity": "major",
+   "Severity": "major",
   
-  "Priority": "high",
+   "Priority": "high",
   
-  "Attachments": {
+   "Attachments": {
   
-    "Attachment1": "link_video",
+     "Attachment1": "link_video",
     
-    "Attachment2": "link_screenshort"
+     "Attachment2": "link_screenshort"
     
                   }
 }
+
 ***
 ### *19. Сделать Commit changes (сохранить) изменения на веб интерфейсе*
 - **--> write the title in the Commite changes field --> click on the Commit changes button**
