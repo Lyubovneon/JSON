@@ -1,16 +1,17 @@
-{"ID": 110920221,
-"Title": "Fields are shown without required identification",
-"Invironment": "Microsoft EdgeVersion 105.0.1343.27 (64-bit) OS Windows OS Version 10x64",
-"STR": {
+{
+  "ID": 110920221,
+ "Title": "Fields are shown without required identification",
+ "Invironment": "Microsoft EdgeVersion 105.0.1343.27 (64-bit) OS Windows OS Version 10x64",
+ "STR": {
     "STR1": "Open the http://itcareer.pythonanywhere.com.",
     "STR2": "Pay attention to the browser tab."
-},
-"AR": "Fields are shown without required identification.",
-"ER": "Required fields are shown marked *(asterisk).",
-"Severity": "major",
-"Priority": "high",
-"Attachments": {
+         },
+  "AR": "Fields are shown without required identification.",
+  "ER": "Required fields are shown marked *(asterisk).",
+  "Severity": "major",
+  "Priority": "high",
+  "Attachments": {
     "Attachment1": "link_video",
     "Attachment2": "link_screenshort"
-}
+                  }
 }
