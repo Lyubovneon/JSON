@@ -1,9 +1,15 @@
 {
-  "ID": 110920221,
+ "ID": 110920221,
+ "Date submited": "18.11.2022"
+ "Date updated": "__.__.____"
  "Title": "Fields are shown without required identification",
+ "Assigned to": "@ivanov222"
+ "Resolution": "opened"
+ "Status": "assigned" 
  "Invironment": "Microsoft EdgeVersion 105.0.1343.27 (64-bit) OS Windows OS Version 10x64",
+ "Reporter": "@lyubovneon"
  "STR": {
-    "STR1": "Open the http://itcareer.pythonanywhere.com.",
+    "STR1": "Open the http://itcareer.pythonanywhere.com",
     "STR2": "Pay attention to the browser tab."
          },
   "AR": "Fields are shown without required identification.",
